@@ -2021,6 +2021,236 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "HC-SR04:HC-SR04"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.0813 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "HC-SR04"
+				(at 0 -10.163 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "HC-SR04:XCVR_HC-SR04"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "OSEPP Electronics LTD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Ultrasonic Sensor Module,Rectangular,20-4000 mm,5 V,15 mA,Arduino Compatible | OSEPP HC-SR04"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/HC-SR04/OSEPP/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/HC-SR04/OSEPP/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "HC-SR04"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Osepp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "HC-SR04_0_0"
+				(rectangle
+					(start 0 -7.62)
+					(end 10.16 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -5.08 2.54 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "TRIG"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "ECHO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -5.08 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_Module:RaspberryPi_Pico"
 			(pin_names
 				(offset 0.762)
@@ -3685,10 +3915,22 @@
 		(uuid "181abe7a-f941-42b6-bd46-aaa3131f90fb")
 	)
 	(junction
+		(at 71.12 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3183069a-ade4-4dd7-a026-e55456c0a21c")
+	)
+	(junction
 		(at 34.29 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3701e69d-727f-495b-91d5-5fbd3cd90f46")
+	)
+	(junction
+		(at 86.36 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fac4d0c-3e27-4acd-be50-628d9ca08b22")
 	)
 	(junction
 		(at 58.42 76.2)
@@ -3790,6 +4032,26 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 132.08) (xy 83.82 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11d79dc8-3366-4e92-b616-fc6881f22af0")
+	)
+	(wire
+		(pts
+			(xy 86.36 147.32) (xy 86.36 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11fd6d25-def2-49dd-8aca-8103f0c5757f")
+	)
+	(wire
+		(pts
 			(xy 76.2 63.5) (xy 76.2 68.58)
 		)
 		(stroke
@@ -3880,7 +4142,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 109.22) (xy 193.04 109.22)
+			(xy 218.44 86.36) (xy 231.14 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3967,6 +4229,16 @@
 			(type solid)
 		)
 		(uuid "4c544204-3530-479b-b097-35aa046ba896")
+	)
+	(wire
+		(pts
+			(xy 86.36 149.86) (xy 86.36 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cc30380-a96d-4110-a655-13d44cf27a33")
 	)
 	(wire
 		(pts
@@ -4080,6 +4352,26 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 142.24) (xy 88.9 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "640def64-7be7-4fd8-9f57-f38747c42ce8")
+	)
+	(wire
+		(pts
+			(xy 158.75 76.2) (xy 172.72 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66431410-0d98-4937-bcb2-af64ddc3ed0b")
+	)
+	(wire
+		(pts
 			(xy 31.75 33.02) (xy 60.96 33.02)
 		)
 		(stroke
@@ -4110,7 +4402,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 45.72) (xy 162.56 55.88)
+			(xy 200.66 22.86) (xy 200.66 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4160,6 +4452,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 149.86) (xy 71.12 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7961d31a-57bc-4272-884e-27eb1ca6a3aa")
+	)
+	(wire
+		(pts
 			(xy 76.2 43.18) (xy 76.2 50.8)
 		)
 		(stroke
@@ -4190,6 +4492,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 147.32) (xy 86.36 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dc860a1-d0db-41b3-80d3-a61d4dc7c295")
+	)
+	(wire
+		(pts
 			(xy 76.2 43.18) (xy 73.66 43.18)
 		)
 		(stroke
@@ -4217,6 +4529,16 @@
 			(type solid)
 		)
 		(uuid "85bd9bea-9b41-4249-9626-26358781edd8")
+	)
+	(wire
+		(pts
+			(xy 158.75 78.74) (xy 172.72 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87333517-7e88-469a-94af-e2976ebcca9d")
 	)
 	(wire
 		(pts
@@ -4257,6 +4579,16 @@
 			(type solid)
 		)
 		(uuid "8ccbbafc-2cdc-415a-ac78-6ccd25489208")
+	)
+	(wire
+		(pts
+			(xy 81.28 144.78) (xy 88.9 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "900f4d32-fdb3-45d7-8fcc-8eb2ef120e7a")
 	)
 	(wire
 		(pts
@@ -4320,6 +4652,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 149.86) (xy 86.36 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6dd95ba-5bce-4c0a-b683-6a940b06abb7")
+	)
+	(wire
+		(pts
 			(xy 76.2 30.48) (xy 73.66 30.48)
 		)
 		(stroke
@@ -4360,6 +4702,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 139.7) (xy 88.9 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b527dacf-059e-4dc1-86b7-a08ce047550c")
+	)
+	(wire
+		(pts
 			(xy 73.66 66.04) (xy 100.33 66.04)
 		)
 		(stroke
@@ -4390,7 +4742,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 106.68) (xy 193.04 106.68)
+			(xy 218.44 83.82) (xy 231.14 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4430,7 +4782,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 96.52) (xy 193.04 96.52)
+			(xy 218.44 73.66) (xy 231.14 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4447,6 +4799,16 @@
 			(type default)
 		)
 		(uuid "cd87892f-45d9-4f96-ad55-2ce38411d35e")
+	)
+	(wire
+		(pts
+			(xy 71.12 144.78) (xy 73.66 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf10b27d-4766-4dc2-b6c8-1e8cff604491")
 	)
 	(wire
 		(pts
@@ -4500,7 +4862,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 111.76) (xy 193.04 111.76)
+			(xy 218.44 88.9) (xy 231.14 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4510,7 +4872,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 93.98) (xy 193.04 93.98)
+			(xy 218.44 71.12) (xy 231.14 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4570,6 +4932,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 149.86) (xy 71.12 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6be342a-7f3f-4146-8ccc-09e962b4b931")
+	)
+	(wire
+		(pts
 			(xy 60.96 50.8) (xy 31.75 50.8)
 		)
 		(stroke
@@ -4597,6 +4969,16 @@
 			(type default)
 		)
 		(uuid "fb31f70f-5d19-48f1-9a05-c70bbbd4ee32")
+	)
+	(wire
+		(pts
+			(xy 66.04 144.78) (xy 71.12 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc091661-60f7-410b-bfe6-4ec04b7d7b09")
 	)
 	(label "ID_SDA"
 		(at 31.75 60.96 0)
@@ -4629,7 +5011,7 @@
 		(uuid "0bec16b3-1718-4967-abb5-89274b1e4c31")
 	)
 	(label "BLUE"
-		(at 193.04 106.68 180)
+		(at 231.14 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4728,6 +5110,16 @@
 		)
 		(uuid "528b2a6e-565d-4c9f-9c7f-5fd5fa0cd5d5")
 	)
+	(label "ECHO"
+		(at 66.04 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "585d969d-d987-41d7-b0c9-0ddda75ca347")
+	)
 	(label "GPIO27"
 		(at 31.75 43.18 0)
 		(effects
@@ -4798,8 +5190,18 @@
 		)
 		(uuid "6a63dbe8-50e2-4ffb-a55f-e0df0f695e9b")
 	)
+	(label "TRIG"
+		(at 80.01 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76e3d659-f913-4994-99e7-e4d2f1527790")
+	)
 	(label "PULLUP"
-		(at 193.04 93.98 180)
+		(at 231.14 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4837,6 +5239,16 @@
 			(justify left bottom)
 		)
 		(uuid "9316d4cc-792f-4eb9-8a8b-1201587737ed")
+	)
+	(label "ECHO"
+		(at 158.75 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "952605f1-f2de-467f-a902-6754b282b01e")
 	)
 	(label "GPIO25"
 		(at 100.33 53.34 180)
@@ -4939,7 +5351,7 @@
 		(uuid "be97d25e-3e65-47f1-be40-214007de7218")
 	)
 	(label "GREEN"
-		(at 193.04 109.22 180)
+		(at 231.14 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4949,7 +5361,7 @@
 		(uuid "c74c6e2b-7d1a-423e-b202-669eac7f8db2")
 	)
 	(label "RED"
-		(at 193.04 111.76 180)
+		(at 231.14 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4958,8 +5370,18 @@
 		)
 		(uuid "d8299528-01a7-48bb-bf65-fb614dee26c3")
 	)
+	(label "TRIG"
+		(at 158.75 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de13ea22-9cf3-48ec-a72d-226dcb180314")
+	)
 	(label "PULLDOWN"
-		(at 193.04 96.52 180)
+		(at 231.14 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5059,7 +5481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3.3V"
 			(at 56.2483 19.8056 0)
 			(effects
 				(font
@@ -5680,6 +6102,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 77.47 144.78 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07a65e5e-e7c0-40e4-b618-00e2041f15cb")
+		(property "Reference" "R6"
+			(at 77.216 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.2K"
+			(at 77.216 146.812 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 143.002 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a34ae063-a480-4e13-bdfb-9a7bb3a77ad3")
+		)
+		(pin "2"
+			(uuid "47c8dab7-fc8e-409e-8329-7431a9e86593")
+		)
+		(instances
+			(project "motor_control"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 55.88 167.64 0)
 		(unit 1)
@@ -5807,6 +6296,69 @@
 			(project "motor_control"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 83.82 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b0b5a36-9ecb-4c08-8aa3-8b12b4d43838")
+		(property "Reference" "#PWR011"
+			(at 83.82 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 84.1883 127.7556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 83.82 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea9ee5f4-6d1a-4628-b1b1-25b3315d9ad4")
+		)
+		(instances
+			(project "motor_control"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5952,6 +6504,240 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 77.47 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "378a9de1-184f-4635-b080-3c44a1a59917")
+		(property "Reference" "R7"
+			(at 77.216 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2K"
+			(at 77.216 151.892 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 148.082 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb3e38f0-b3fb-46b0-89ad-30b9b6cbad66")
+		)
+		(pin "2"
+			(uuid "63e1983d-28b8-42b0-9117-af7db34360b7")
+		)
+		(instances
+			(project "motor_control"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HC-SR04:HC-SR04")
+		(at 93.98 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38686fc7-948b-45b7-b848-af1b8d379e17")
+		(property "Reference" "U1"
+			(at 105.41 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HC-SR04"
+			(at 105.41 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "HC-SR04:XCVR_HC-SR04"
+			(at 93.98 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "OSEPP Electronics LTD"
+			(at 93.98 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Ultrasonic Sensor Module,Rectangular,20-4000 mm,5 V,15 mA,Arduino Compatible | OSEPP HC-SR04"
+			(at 93.98 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 93.98 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 93.98 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/HC-SR04/OSEPP/view-part/?ref=eda"
+			(at 93.98 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/HC-SR04/OSEPP/view-part/?ref=snap"
+			(at 93.98 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "HC-SR04"
+			(at 93.98 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 93.98 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Osepp"
+			(at 93.98 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "64dfaa20-b1f2-4f36-91e6-1bc48789cc5c")
+		)
+		(pin "1"
+			(uuid "95c72e7d-eae3-4056-b0e3-e21344001eb9")
+		)
+		(pin "2"
+			(uuid "1d378fe5-4471-43e5-84e6-5efd1451e786")
+		)
+		(pin "3"
+			(uuid "d557072c-33f1-4c78-9aeb-2f101079b4e6")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 43.18 180.34 0)
 		(unit 1)
@@ -6020,7 +6806,7 @@
 	)
 	(symbol
 		(lib_id "MCU_Module:RaspberryPi_Pico")
-		(at 157.48 93.98 0)
+		(at 195.58 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6029,7 +6815,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b5f956d-2460-4631-97a5-6d9ebbf62cdc")
 		(property "Reference" "A1"
-			(at 159.6233 128.27 0)
+			(at 197.7233 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6038,7 +6824,7 @@
 			)
 		)
 		(property "Value" "RaspberryPi_Pico"
-			(at 159.6233 130.81 0)
+			(at 197.7233 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6047,7 +6833,7 @@
 			)
 		)
 		(property "Footprint" "Module:RaspberryPi_Pico_Common_Unspecified"
-			(at 157.48 140.97 0)
+			(at 195.58 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6056,7 +6842,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf"
-			(at 157.48 143.51 0)
+			(at 195.58 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6065,7 +6851,7 @@
 			)
 		)
 		(property "Description" "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2"
-			(at 157.48 146.05 0)
+			(at 195.58 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6197,6 +6983,72 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a6d22b1-2f8d-440c-8df2-169de8f6131d")
+		(property "Reference" "#PWR012"
+			(at 86.36 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41294b16-2f13-4c40-a83b-aa10340aedfa")
+		)
+		(instances
+			(project "motor_control"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6605,7 +7457,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 162.56 45.72 0)
+		(at 200.66 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6614,7 +7466,7 @@
 		(fields_autoplaced yes)
 		(uuid "f325f0cd-047a-4833-a734-cd452a118fa1")
 		(property "Reference" "#PWR06"
-			(at 162.56 49.53 0)
+			(at 200.66 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6623,7 +7475,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 162.56 40.64 0)
+			(at 200.66 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6631,7 +7483,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 45.72 0)
+			(at 200.66 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6640,7 +7492,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 45.72 0)
+			(at 200.66 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6649,7 +7501,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 162.56 45.72 0)
+			(at 200.66 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
