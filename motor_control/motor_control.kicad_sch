@@ -5247,6 +5247,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Pico"
+		(exclude_from_sim no)
+		(at 147.066 19.558 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 144 32 255 1)
+			)
+		)
+		(uuid "011bd593-67eb-48e9-becb-907b9e150efe")
+	)
 	(text "From Pi"
 		(exclude_from_sim no)
 		(at 163.322 22.352 0)
@@ -5267,6 +5280,19 @@
 		)
 		(uuid "6c6ac25e-138c-4dce-85fb-1b6ee26569b5")
 	)
+	(text "Peripherals"
+		(exclude_from_sim no)
+		(at 163.068 115.824 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 144 32 255 1)
+			)
+		)
+		(uuid "768592dc-4f23-4d58-9e98-df1885448b26")
+	)
 	(text "To Pico"
 		(exclude_from_sim no)
 		(at 43.434 164.846 0)
@@ -5277,6 +5303,19 @@
 		)
 		(uuid "a2c75199-3b0e-4a4d-9410-009c63ed39fe")
 	)
+	(text "Motor Driver"
+		(exclude_from_sim no)
+		(at 119.126 192.024 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 144 32 255 1)
+			)
+		)
+		(uuid "cba1f125-8539-4cf8-aff0-404b066f7eb0")
+	)
 	(text "To Pico"
 		(exclude_from_sim no)
 		(at 201.676 21.59 0)
@@ -5286,6 +5325,19 @@
 			)
 		)
 		(uuid "d6e2aefb-8f06-4c94-bac4-f1865d7ae891")
+	)
+	(text "Pi"
+		(exclude_from_sim no)
+		(at 20.828 19.812 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 144 32 255 1)
+			)
+		)
+		(uuid "fd3fa319-5692-45a3-8a20-f8526ce1f783")
 	)
 	(junction
 		(at 195.58 138.43)
@@ -6309,6 +6361,16 @@
 		)
 		(uuid "7fb9406c-5565-4c08-b204-248081e138c9")
 	)
+	(polyline
+		(pts
+			(xy 12.7 106.68) (xy 266.7 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "803bad4c-59c2-44d1-b354-98a211b9dd24")
+	)
 	(wire
 		(pts
 			(xy 76.2 24.13) (xy 76.2 27.94)
@@ -6908,6 +6970,16 @@
 			(type default)
 		)
 		(uuid "eeac52bc-002a-4685-a3f9-7aa60f14eba5")
+	)
+	(polyline
+		(pts
+			(xy 133.35 12.7) (xy 133.35 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3584edd-cf15-4060-93fc-6806f45aaf68")
 	)
 	(wire
 		(pts

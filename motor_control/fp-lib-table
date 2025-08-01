@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "HC-SR04")(type "KiCad")(uri "${KIPRJMOD}/custom_lib/HC-SR04")(options "")(descr ""))
+  (lib (name "POLOLU-713")(type "KiCad")(uri "${KIPRJMOD}/custom_lib/POLOLU-713")(options "")(descr ""))
+)
