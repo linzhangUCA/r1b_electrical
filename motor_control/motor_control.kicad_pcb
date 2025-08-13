@@ -12,6 +12,8 @@
 	)
 	(layers
 		(0 "F.Cu" signal)
+		(4 "In1.Cu" signal)
+		(6 "In2.Cu" signal)
 		(2 "B.Cu" signal)
 		(9 "F.Adhes" user "F.Adhesive")
 		(11 "B.Adhes" user "B.Adhesive")
@@ -51,7 +53,6 @@
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
-				(color "Green")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -59,8 +60,30 @@
 				(thickness 0.035)
 			)
 			(layer "dielectric 1"
+				(type "prepreg")
+				(thickness 0.1)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In1.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 2"
 				(type "core")
-				(thickness 1.51)
+				(thickness 1.24)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In2.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 3"
+				(type "prepreg")
+				(thickness 0.1)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -71,7 +94,6 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
-				(color "Green")
 				(thickness 0.01)
 			)
 			(layer "B.Paste"
@@ -80,7 +102,7 @@
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
 			)
-			(copper_finish "None")
+			(copper_finish "HAL lead-free")
 			(dielectric_constraints no)
 		)
 		(pad_to_mask_clearance 0)
@@ -115,7 +137,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -241,28 +262,11 @@
 			(layer "F.CrtYd")
 			(uuid "582492af-cb33-414f-8f9f-460876289f39")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0.3 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2ebc6820-0ee9-4ebe-bd98-2e23947c238f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 2.7 2.7)
 			(drill 2.7)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "faec79ce-8098-4d59-ae09-9903ed66322b")
 		)
 		(embedded_fonts no)
@@ -347,28 +351,11 @@
 			(layer "F.CrtYd")
 			(uuid "71492e75-b568-4252-8dc6-14255cd2ad5a")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0.3 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4f615ec1-8e7a-4ab1-b083-ba7e8302927d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 2.7 2.7)
 			(drill 2.7)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "2075278e-71da-4f5c-ab9b-cc216af8449f")
 		)
 		(embedded_fonts no)
@@ -453,28 +440,11 @@
 			(layer "F.CrtYd")
 			(uuid "4851c728-a0b6-4ee6-a30e-150a7c7c7e6a")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0.3 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f8433669-22c8-4de7-a114-d55c6d37b4c2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 2.7 2.7)
 			(drill 2.7)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "2af4ecf1-6a3d-4223-bc1c-622d3b3372b3")
 		)
 		(embedded_fonts no)
@@ -559,28 +529,11 @@
 			(layer "F.CrtYd")
 			(uuid "65b638e5-6201-4766-bdbd-d86da24fef72")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0.3 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a6353980-a1a7-4de4-9271-ccd617c5e296")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 2.7 2.7)
 			(drill 2.7)
-			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-				"In29.Cu" "In30.Cu"
-			)
+			(layers "*.Cu" "*.Mask")
 			(uuid "9d95b8c2-08c8-4eab-adda-931aa4b7fa84")
 		)
 		(embedded_fonts no)
@@ -1379,6 +1332,27 @@
 		(layer "Dwgs.User")
 		(uuid "5e402a36-e967-4e97-aadc-cb7fffb01a5a")
 	)
+	(gr_line
+		(start 146.998 100)
+		(end 103 100)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "093d88dc-03e4-4280-8f8c-a34b36c9cc3a")
+	)
+	(gr_arc
+		(start 147.498 84.498)
+		(mid 147.644447 84.144447)
+		(end 147.998 83.998)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "099e9b8f-d1e0-4c2a-88fa-c95a825e73a5")
+	)
 	(gr_arc
 		(start 100.5 63.5)
 		(mid 100.146447 63.353553)
@@ -1402,6 +1376,16 @@
 		(uuid "22a2f42c-876a-42fd-9fcb-c4fcc64c52f2")
 	)
 	(gr_line
+		(start 147.498 84.498)
+		(end 147.498 99.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "22a73d4a-12de-4bf3-8e73-64ea6b557b99")
+	)
+	(gr_line
 		(start 165 97)
 		(end 165 47)
 		(stroke
@@ -1421,25 +1405,16 @@
 		(layer "Edge.Cuts")
 		(uuid "37914bed-263c-4116-a3f8-80eebeda652f")
 	)
-	(gr_line
-		(start 146 81)
-		(end 146 96)
+	(gr_arc
+		(start 158.00097 100)
+		(mid 157.647074 99.853211)
+		(end 157.500971 99.499031)
 		(stroke
 			(width 0.1)
-			(type solid)
+			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "79c07597-5ab9-4d26-b4b3-a70ae9dcd11d")
-	)
-	(gr_line
-		(start 144 96)
-		(end 144 81)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "81e492f6-268f-4ce2-bb45-32834e67e85b")
+		(uuid "7daed0e8-99eb-4e71-b469-ea4b7e7c74d8")
 	)
 	(gr_arc
 		(start 103 100)
@@ -1452,8 +1427,19 @@
 		(layer "Edge.Cuts")
 		(uuid "8472a348-457a-4fa7-a2e1-f3c62839464b")
 	)
+	(gr_arc
+		(start 157.03003 83.998)
+		(mid 157.383926 84.144789)
+		(end 157.53003 84.498969)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8558cdf3-293e-470f-baf0-ae3675f025bc")
+	)
 	(gr_line
-		(start 103 100)
+		(start 158.00097 100)
 		(end 162 100)
 		(stroke
 			(width 0.1)
@@ -1473,15 +1459,15 @@
 		(uuid "97ae713b-7d2d-4a60-bcd9-2dd4b368aa15")
 	)
 	(gr_arc
-		(start 144 81)
-		(mid 145 80)
-		(end 146 81)
+		(start 147.498 99.5)
+		(mid 147.351553 99.853553)
+		(end 146.998 100)
 		(stroke
 			(width 0.1)
-			(type solid)
+			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "b6c3db4f-e418-4da3-aef6-5010435bcf13")
+		(uuid "bac8efc9-038e-452a-befb-e29a1c184134")
 	)
 	(gr_arc
 		(start 100 81)
@@ -1506,6 +1492,16 @@
 		(uuid "c7b345f0-09d6-40ac-8b3c-c73de04b41ce")
 	)
 	(gr_line
+		(start 157.03003 83.998)
+		(end 147.998 83.998)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c80b17cc-5eaa-440e-94d2-4e91c19ef8f2")
+	)
+	(gr_line
 		(start 105 64)
 		(end 105 80)
 		(stroke
@@ -1525,17 +1521,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "ccd65f21-b02e-4d31-b8df-11f6ca2d4d24")
-	)
-	(gr_arc
-		(start 146 96)
-		(mid 145 97)
-		(end 144 96)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "d4c39290-1388-499e-abdc-d2c7dce5190a")
 	)
 	(gr_line
 		(start 100 81)
@@ -1580,6 +1565,16 @@
 		(uuid "f78d019e-cf6e-46b1-83f8-3ba515696edd")
 	)
 	(gr_line
+		(start 157.500971 99.499031)
+		(end 157.53003 84.498969)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f8cc5b0d-f1fa-46e9-b583-353ce2ca71d5")
+	)
+	(gr_line
 		(start 162 44)
 		(end 103 44)
 		(stroke
@@ -1615,17 +1610,6 @@
 		(at 102.5 72 90)
 		(layer "Dwgs.User")
 		(uuid "00000000-0000-0000-0000-0000580cbbff")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(gr_text "CAMERA (OPTIONAL)"
-		(at 145 88.5 90)
-		(layer "Dwgs.User")
-		(uuid "1811fd1a-b55e-4d16-931d-f9ec6a9e16f7")
 		(effects
 			(font
 				(size 1 1)
@@ -1698,13 +1682,6 @@
 			(pts
 				(xy 164 56.14) (xy 159 56.14) (xy 159 51.14) (xy 164 51.14)
 			)
-		)
-	)
-	(group ""
-		(uuid "ad629bd4-e7e1-40e2-81d6-711e1f1d1fae")
-		(members "1811fd1a-b55e-4d16-931d-f9ec6a9e16f7" "79c07597-5ab9-4d26-b4b3-a70ae9dcd11d"
-			"81e492f6-268f-4ce2-bb45-32834e67e85b" "b6c3db4f-e418-4da3-aef6-5010435bcf13"
-			"d4c39290-1388-499e-abdc-d2c7dce5190a"
 		)
 	)
 	(embedded_fonts no)
