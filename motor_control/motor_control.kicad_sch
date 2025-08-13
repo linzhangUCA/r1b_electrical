@@ -5723,6 +5723,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 22.86) (xy 260.35 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26af2139-e95b-4359-b783-9f8650bf9b23")
+	)
+	(wire
+		(pts
 			(xy 73.66 35.56) (xy 100.33 35.56)
 		)
 		(stroke
@@ -5933,6 +5943,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 20.32) (xy 262.89 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "490d0afa-4255-43f6-8f13-88e67d48c3da")
+	)
+	(wire
+		(pts
 			(xy 251.46 54.61) (xy 264.16 54.61)
 		)
 		(stroke
@@ -5980,6 +6000,16 @@
 			(type default)
 		)
 		(uuid "4cc30380-a96d-4110-a655-13d44cf27a33")
+	)
+	(wire
+		(pts
+			(xy 260.35 22.86) (xy 260.35 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ce8db07-f6dc-41ab-8e2e-2a476e9ad8a0")
 	)
 	(wire
 		(pts
@@ -6090,6 +6120,16 @@
 			(type default)
 		)
 		(uuid "5db5f834-6139-4042-a94e-c5d6cca5371a")
+	)
+	(wire
+		(pts
+			(xy 262.89 20.32) (xy 262.89 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e641325-1f6d-4eb9-979c-b11ff3f60e47")
 	)
 	(wire
 		(pts
@@ -9049,7 +9089,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_MOT_POW_01x02"
+		(property "Value" "MOT_POW"
 			(at 33.274 155.956 0)
 			(effects
 				(font
@@ -9183,15 +9223,15 @@
 		(dnp no)
 		(uuid "31036a3e-c895-4454-b87d-14a7cc06cc90")
 		(property "Reference" "J7"
-			(at 172.974 62.738 0)
+			(at 176.53 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_I2C_01x02"
-			(at 171.958 64.516 0)
+		(property "Value" "I2C"
+			(at 176.784 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9622,7 +9662,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_Motor_01x06"
+		(property "Value" "MotA"
 			(at 27.305 119.38 0)
 			(effects
 				(font
@@ -9679,6 +9719,73 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 252.73 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52a7e248-b465-4d43-ab9f-5b65958efa4f")
+		(property "Reference" "J8"
+			(at 249.682 20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS_OUT"
+			(at 247.904 22.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 252.73 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 252.73 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63d1b7ae-f37f-4358-af34-3ca2b6ff571e")
+		)
+		(pin "2"
+			(uuid "ca114e72-d619-40e4-adbf-905fa6bb2b71")
+		)
+		(instances
+			(project "motor_control"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -9880,6 +9987,69 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 260.35 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ddb6309-a9c1-42c7-9353-66f07b29e8a9")
+		(property "Reference" "#PWR029"
+			(at 260.35 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 260.4643 29.7244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 260.35 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df162e45-506e-45bc-8581-a9aefee1952b")
+		)
+		(instances
+			(project "motor_control"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 180.34 46.99 0)
 		(unit 1)
@@ -9889,15 +10059,15 @@
 		(dnp no)
 		(uuid "7588d2fb-db1a-447c-82e5-a110332491bb")
 		(property "Reference" "J5"
-			(at 171.704 47.244 0)
+			(at 177.292 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_UART_01x02"
-			(at 171.45 49.022 0)
+		(property "Value" "UART"
+			(at 177.038 48.768 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10608,7 +10778,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_Motor_01x06"
+		(property "Value" "MotB"
 			(at 69.215 119.38 0)
 			(effects
 				(font
@@ -11238,7 +11408,7 @@
 				)
 			)
 		)
-		(property "Value" "Jumper_2_Open"
+		(property "Value" "5V_VBUS"
 			(at 182.88 21.59 0)
 			(effects
 				(font
@@ -11289,6 +11459,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 262.89 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d03c7ba4-81e5-4f99-9ad7-6e9bd1266d73")
+		(property "Reference" "#PWR028"
+			(at 262.89 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 262.89 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 262.89 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89f3cd05-77b5-4528-8d50-491ac6b2df54")
+		)
+		(instances
+			(project "motor_control"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 180.34 54.61 0)
 		(unit 1)
@@ -11298,15 +11534,15 @@
 		(dnp no)
 		(uuid "db751a67-3b75-459a-ba16-b6c822626f8f")
 		(property "Reference" "J6"
-			(at 173.482 54.61 0)
+			(at 178.054 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_SPI_01x04"
-			(at 172.466 56.388 0)
+		(property "Value" "SPI"
+			(at 178.054 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
