@@ -1877,7 +1877,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/custom_lib/HC-SR04/HC-SR04.STEP"
 			(offset
-				(xyz 0 -10 9)
+				(xyz 0 -9.5 10)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -2408,6 +2408,17 @@
 			(uuid "9f3e1b08-1aae-4420-b704-9e45a7da0896")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/custom_lib/POLOLU-713/tb6612fng-dual-motor-driver-carrier.step"
+			(offset
+				(xyz -7.6 -10.1 10)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
 		(locked yes)
