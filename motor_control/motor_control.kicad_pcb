@@ -1875,6 +1875,17 @@
 			(uuid "25cc6205-e6b3-42e7-8df8-f7e549360750")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/custom_lib/HC-SR04/HC-SR04.STEP"
+			(offset
+				(xyz 0 -10 9)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "POLOLU-713:SHIELD_POLOLU-713"
 		(layer "F.Cu")
