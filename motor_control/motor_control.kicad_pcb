@@ -111,7 +111,7 @@
 		(aux_axis_origin 100 100)
 		(grid_origin 100 100)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_00000000_000000a5)
+			(layerselection 0x00000000_00000000_55555555_5755f5af)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions yes)
@@ -142,12 +142,12 @@
 			(hidednponfab no)
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
-			(subtractmaskfromsilk no)
+			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "jlcpcb_gerbers/")
 		)
 	)
 	(net 0 "")
@@ -12011,8 +12011,8 @@
 			(justify right bottom)
 		)
 	)
-	(gr_text "JLCJLCJLC"
-		(at 107.4 92.7 0)
+	(gr_text "JLCJLCJLCJLC"
+		(at 91.4 55.8 270)
 		(layer "B.SilkS")
 		(uuid "457ace58-0acf-4699-98c5-ba3eca00779b")
 		(effects
