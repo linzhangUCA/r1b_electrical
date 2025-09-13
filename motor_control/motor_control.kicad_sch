@@ -5436,6 +5436,16 @@
 		)
 		(uuid "011bd593-67eb-48e9-becb-907b9e150efe")
 	)
+	(text "From PEB"
+		(exclude_from_sim no)
+		(at 104.902 17.272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "093d0994-feb7-4c3f-b8e1-879f2556d2eb")
+	)
 	(text "From power expansion board"
 		(exclude_from_sim no)
 		(at 162.306 27.432 0)
@@ -5445,6 +5455,16 @@
 			)
 		)
 		(uuid "2177c289-898b-41dd-8d22-76cd24ffee2e")
+	)
+	(text "To RPi"
+		(exclude_from_sim no)
+		(at 126.746 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "23be245c-956e-4d26-a0bc-63064f0d4d2e")
 	)
 	(text "To Motors"
 		(exclude_from_sim no)
@@ -5933,7 +5953,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 21.59) (xy 102.87 27.94)
+			(xy 95.25 21.59) (xy 95.25 27.94)
 		)
 		(stroke
 			(width 0)
@@ -6623,7 +6643,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 27.94) (xy 127 24.13)
+			(xy 119.38 27.94) (xy 119.38 24.13)
 		)
 		(stroke
 			(width 0)
@@ -6773,7 +6793,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 27.94) (xy 109.22 27.94)
+			(xy 95.25 27.94) (xy 101.6 27.94)
 		)
 		(stroke
 			(width 0)
@@ -7013,7 +7033,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 27.94) (xy 127 27.94)
+			(xy 111.76 27.94) (xy 119.38 27.94)
 		)
 		(stroke
 			(width 0)
@@ -9284,7 +9304,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 102.87 21.59 0)
+		(at 95.25 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9292,7 +9312,7 @@
 		(dnp no)
 		(uuid "1f0ab568-a655-47ff-8eec-dfbf2008f94a")
 		(property "Reference" "#PWR031"
-			(at 102.87 25.4 0)
+			(at 95.25 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9301,7 +9321,7 @@
 			)
 		)
 		(property "Value" "5V_IN"
-			(at 103.2383 17.2656 0)
+			(at 95.6183 17.2656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9309,7 +9329,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 21.59 0)
+			(at 95.25 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9317,7 +9337,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 21.59 0)
+			(at 95.25 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9325,7 +9345,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 102.87 21.59 0)
+			(at 95.25 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10067,7 +10087,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 127 24.13 0)
+		(at 119.38 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10075,7 +10095,7 @@
 		(dnp no)
 		(uuid "557e269d-c915-4dd7-8d95-f2786593ab19")
 		(property "Reference" "#PWR030"
-			(at 127 27.94 0)
+			(at 119.38 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10084,7 +10104,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 127.3683 19.8056 0)
+			(at 119.7483 19.8056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10092,7 +10112,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 24.13 0)
+			(at 119.38 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10100,7 +10120,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 24.13 0)
+			(at 119.38 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10108,7 +10128,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 127 24.13 0)
+			(at 119.38 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11801,7 +11821,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Open")
-		(at 114.3 27.94 0)
+		(at 106.68 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11810,7 +11830,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc296104-d411-4d6f-8f32-0d1c5ca9a4e6")
 		(property "Reference" "JP1"
-			(at 114.3 21.59 0)
+			(at 106.68 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11818,7 +11838,7 @@
 			)
 		)
 		(property "Value" "5V_PEB_RPi"
-			(at 114.3 24.13 0)
+			(at 106.68 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11826,7 +11846,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 114.3 27.94 0)
+			(at 106.68 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11835,7 +11855,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 27.94 0)
+			(at 106.68 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11844,7 +11864,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
-			(at 114.3 27.94 0)
+			(at 106.68 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
