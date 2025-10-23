@@ -7290,7 +7290,7 @@
 		(uuid "fd5504a6-211a-4434-913c-cca331182f51")
 	)
 	(label "BIN2"
-		(at 264.16 52.07 180)
+		(at 264.16 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7520,7 +7520,7 @@
 		(uuid "5069ddbc-357e-4355-aaa5-a8f551963b7a")
 	)
 	(label "AIN2"
-		(at 185.42 82.55 0)
+		(at 185.42 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7630,7 +7630,7 @@
 		(uuid "6a63dbe8-50e2-4ffb-a55f-e0df0f695e9b")
 	)
 	(label "STBY"
-		(at 185.42 77.47 0)
+		(at 185.42 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7710,7 +7710,7 @@
 		(uuid "7ce2c124-d160-4fd9-b176-aef3746fd1e3")
 	)
 	(label "BIN1"
-		(at 264.16 49.53 180)
+		(at 264.16 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7830,7 +7830,7 @@
 		(uuid "a46d6ef9-bb48-47fb-afed-157a64315177")
 	)
 	(label "PWMA"
-		(at 185.42 80.01 0)
+		(at 185.42 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7860,7 +7860,7 @@
 		(uuid "acfd3451-cb67-4c12-a44f-816584abaebd")
 	)
 	(label "PWMB"
-		(at 264.16 54.61 180)
+		(at 264.16 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8010,7 +8010,7 @@
 		(uuid "da1380fd-ec67-4374-9cd4-3ff2b68f2b93")
 	)
 	(label "AIN1"
-		(at 185.42 85.09 0)
+		(at 185.42 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
