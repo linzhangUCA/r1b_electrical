@@ -2986,156 +2986,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Open"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Open_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_0_1"
-				(arc
-					(start -1.524 1.27)
-					(mid 0 1.778)
-					(end 1.524 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "POLOLU-713:TB6612FNG_Breakout"
 			(pin_names
 				(offset 1.016)
@@ -5436,19 +5286,9 @@
 		)
 		(uuid "011bd593-67eb-48e9-becb-907b9e150efe")
 	)
-	(text "From PEB"
-		(exclude_from_sim no)
-		(at 104.902 17.272 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "093d0994-feb7-4c3f-b8e1-879f2556d2eb")
-	)
 	(text "From power expansion board"
 		(exclude_from_sim no)
-		(at 162.306 27.432 0)
+		(at 152.146 51.816 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5456,15 +5296,15 @@
 		)
 		(uuid "2177c289-898b-41dd-8d22-76cd24ffee2e")
 	)
-	(text "To RPi"
+	(text "From Pico's USB"
 		(exclude_from_sim no)
-		(at 126.746 20.32 0)
+		(at 154.94 80.772 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "23be245c-956e-4d26-a0bc-63064f0d4d2e")
+		(uuid "62a18410-394b-4801-8b16-888585dd3b20")
 	)
 	(text "To Motors"
 		(exclude_from_sim no)
@@ -5763,6 +5603,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 69.85) (xy 157.48 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1083dbb6-bb65-458f-8bc7-bae67c55e3e8")
+	)
+	(wire
+		(pts
 			(xy 251.46 49.53) (xy 264.16 49.53)
 		)
 		(stroke
@@ -5933,13 +5783,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 21.59) (xy 95.25 27.94)
+			(xy 160.02 67.31) (xy 160.02 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2907cb3c-e025-4d6d-8a87-c9b0b711bd00")
+		(uuid "290a239d-165c-4a84-8f74-ce8e8f421fb3")
 	)
 	(wire
 		(pts
@@ -6663,16 +6513,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 27.94) (xy 119.38 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80d8e3d6-54e1-47df-a900-301fb099a2ab")
-	)
-	(wire
-		(pts
 			(xy 76.2 24.13) (xy 76.2 27.94)
 		)
 		(stroke
@@ -6823,13 +6663,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 27.94) (xy 101.6 27.94)
+			(xy 154.94 69.85) (xy 157.48 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9fc7e544-cc2e-4fd4-9244-389edc8d5aae")
+		(uuid "a36e3a98-f6ed-4efa-96f2-1a14afc55736")
 	)
 	(wire
 		(pts
@@ -7040,16 +6880,6 @@
 			(type default)
 		)
 		(uuid "c90d7d7b-a8ab-444e-b5eb-4ea91d2ee149")
-	)
-	(wire
-		(pts
-			(xy 111.76 27.94) (xy 119.38 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1470322-2e8c-4b73-b28e-a4f595d35630")
 	)
 	(wire
 		(pts
@@ -7270,6 +7100,16 @@
 			(type default)
 		)
 		(uuid "f3584edd-cf15-4060-93fc-6806f45aaf68")
+	)
+	(wire
+		(pts
+			(xy 154.94 67.31) (xy 160.02 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3f0c7d4-1a1a-4b8e-ba07-bd2531b26605")
 	)
 	(wire
 		(pts
@@ -9145,7 +8985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "REG_5V"
 			(at 54.61 115.5699 0)
 			(effects
 				(font
@@ -9211,7 +9051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "REG_5V"
 			(at 232.7783 113.7856 0)
 			(effects
 				(font
@@ -9323,69 +9163,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 95.25 21.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1f0ab568-a655-47ff-8eec-dfbf2008f94a")
-		(property "Reference" "#PWR031"
-			(at 95.25 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "5V_IN"
-			(at 95.6183 17.2656 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 95.25 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f25384b5-7bfe-44cc-b662-7d6c6ceb578e")
-		)
-		(instances
-			(project "motor_control"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 38.1 153.67 180)
 		(unit 1)
@@ -9395,7 +9172,7 @@
 		(dnp no)
 		(uuid "260f8c9d-b1d3-4d62-9b72-3a5d17d1855f")
 		(property "Reference" "J4"
-			(at 41.148 153.67 0)
+			(at 40.132 150.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9404,7 +9181,7 @@
 			)
 		)
 		(property "Value" "MOT_POW"
-			(at 33.274 155.956 0)
+			(at 39.37 153.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9544,7 +9321,7 @@
 				)
 			)
 		)
-		(property "Value" "I2C"
+		(property "Value" "I2C1"
 			(at 176.784 64.77 0)
 			(effects
 				(font
@@ -10055,8 +9832,8 @@
 				)
 			)
 		)
-		(property "Value" "PEB_5V_IN"
-			(at 149.352 41.656 0)
+		(property "Value" "REG_5V_INPUT"
+			(at 148.082 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10106,69 +9883,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 119.38 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "557e269d-c915-4dd7-8d95-f2786593ab19")
-		(property "Reference" "#PWR030"
-			(at 119.38 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 119.7483 19.8056 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 119.38 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "062bfd22-3aee-40c0-9ecc-ac09618a162c")
-		)
-		(instances
-			(project "motor_control"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 96.52 120.65 0)
 		(unit 1)
@@ -10187,7 +9901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "REG_5V"
 			(at 99.06 119.3799 0)
 			(effects
 				(font
@@ -10428,6 +10142,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 160.02 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74167c5e-0fe3-4f3c-b698-823da3274708")
+		(property "Reference" "#PWR030"
+			(at 160.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 160.02 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 160.02 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "843d9236-7a4b-4845-8534-2bdee7bcaa44")
+		)
+		(instances
+			(project "motor_control"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 180.34 46.99 0)
 		(unit 1)
@@ -10444,7 +10224,7 @@
 				)
 			)
 		)
-		(property "Value" "UART"
+		(property "Value" "UART0"
 			(at 177.038 48.768 0)
 			(effects
 				(font
@@ -11594,7 +11374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V_IN"
+		(property "Value" "REG_5V"
 			(at 169.2783 17.2656 0)
 			(effects
 				(font
@@ -11701,6 +11481,74 @@
 			(project "motor_control"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 149.86 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6e78042-3bde-4383-a537-b27fda46483f")
+		(property "Reference" "J9"
+			(at 150.495 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS_OUT"
+			(at 150.495 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 149.86 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "540883a0-a47e-4243-bcea-08c32797e1ce")
+		)
+		(pin "2"
+			(uuid "6c5a559e-1f44-4b17-a8d6-915da25d53e5")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -11840,74 +11688,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 106.68 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc296104-d411-4d6f-8f32-0d1c5ca9a4e6")
-		(property "Reference" "JP1"
-			(at 106.68 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5V_PEB_RPi"
-			(at 106.68 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 106.68 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 106.68 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b811c254-54e9-4428-b4b9-57bed371e6a7")
-		)
-		(pin "1"
-			(uuid "00b7a3e1-998f-4bce-9a24-d5dfd6f8ef34")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 165.1 38.1 0)
 		(unit 1)
@@ -11925,7 +11705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V_IN"
+		(property "Value" "REG_5V"
 			(at 163.576 34.29 0)
 			(effects
 				(font
@@ -11990,7 +11770,7 @@
 				)
 			)
 		)
-		(property "Value" "SPI"
+		(property "Value" "SPI0"
 			(at 178.054 56.896 0)
 			(effects
 				(font
@@ -12170,6 +11950,69 @@
 			(project "motor_control"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1e7a0fc-d2b3-4a0f-a726-8fa5ad3dc8d2")
+		(property "Reference" "#PWR031"
+			(at 157.48 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.5943 76.7144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "786426ce-92f9-4f2f-b5a6-869781beb270")
+		)
+		(instances
+			(project "motor_control"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
