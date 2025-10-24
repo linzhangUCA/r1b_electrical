@@ -7955,7 +7955,7 @@
 		)
 		(uuid "35a1cc8d-cefe-4fd3-8f7e-ebdbdbd072ee")
 	)
-	(label "C1A"
+	(label "C2A"
 		(at 43.18 129.54 180)
 		(effects
 			(font
@@ -7966,7 +7966,7 @@
 		(uuid "36bea0b8-f42b-45c2-b3cd-935ae481da41")
 	)
 	(label "C2B"
-		(at 85.09 127 180)
+		(at 85.09 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8275,7 +8275,7 @@
 		)
 		(uuid "8fb0631c-564a-4f96-b39b-2f827bb204a3")
 	)
-	(label "BO1"
+	(label "BO2"
 		(at 85.09 121.92 180)
 		(effects
 			(font
@@ -8525,7 +8525,7 @@
 		)
 		(uuid "c74c6e2b-7d1a-423e-b202-669eac7f8db2")
 	)
-	(label "C2A"
+	(label "C1A"
 		(at 43.18 127 180)
 		(effects
 			(font
@@ -8616,7 +8616,7 @@
 		(uuid "ecac5337-a84a-4493-8091-74f395455156")
 	)
 	(label "C1B"
-		(at 85.09 129.54 180)
+		(at 85.09 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8625,7 +8625,7 @@
 		)
 		(uuid "eeec93f7-57d0-4efa-9fe6-961ef99a9b9f")
 	)
-	(label "BO2"
+	(label "BO1"
 		(at 85.09 134.62 180)
 		(effects
 			(font
