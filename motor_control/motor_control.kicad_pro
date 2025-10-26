@@ -528,7 +528,7 @@
       "plot": "jlcpcb_gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "motor_control_board.step",
       "svg": "",
       "vrml": ""
     },
