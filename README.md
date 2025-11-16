@@ -7,3 +7,6 @@
 ## Assembled Example
 
 ![assembled](motor_control-soldered.jpg)
+
+
+## Parts List
