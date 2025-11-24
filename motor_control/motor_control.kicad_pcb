@@ -2056,7 +2056,7 @@
 		(property "Reference" "A2"
 			(at -0.0045 -2.43 0)
 			(layer "F.SilkS")
-			(uuid "e7ed5052-26c7-4cf0-999e-2c54f2d58bad")
+			(uuid "1e3359a0-29c1-426a-8650-94251bd0da2b")
 			(effects
 				(font
 					(size 1 1)
@@ -2067,7 +2067,7 @@
 		(property "Value" "Pololu_TB6612"
 			(at -0.0045 3.17 270)
 			(layer "F.SilkS")
-			(uuid "53d6b18c-e998-4b41-8b2b-d15b5ab096ff")
+			(uuid "498ed51c-60e8-4fab-b98f-7fa910800f8e")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -2079,7 +2079,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ce1af600-8304-40d6-b5a3-f36f49416360")
+			(uuid "98210e29-2315-4279-9b3a-549271af221d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2091,7 +2091,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5b762a04-e05c-47e6-bddb-d45ba8c87489")
+			(uuid "688af9e3-ebac-413a-b529-b87e615552ef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11267,8 +11267,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "AO1"
-		(at 109.1 66.0015 0)
+	(gr_text "AIN1"
+		(at 108.95 66.1 0)
 		(layer "F.SilkS")
 		(uuid "13e4d1f9-9e57-429e-953a-1bacb1ba7c43")
 		(effects
@@ -11279,7 +11279,7 @@
 			(justify right bottom)
 		)
 	)
-	(gr_text "AO2"
+	(gr_text "STBY"
 		(at 109.1 68.5 0)
 		(layer "F.SilkS")
 		(uuid "1a2ab218-72d8-46f0-819b-421bc84a9a5e")
@@ -11386,8 +11386,8 @@
 			(justify right bottom)
 		)
 	)
-	(gr_text "BO1"
-		(at 109.042857 73.6 0)
+	(gr_text "BIN2"
+		(at 108.95 73.8 0)
 		(layer "F.SilkS")
 		(uuid "403e2715-b839-4ad1-8e93-bd0aa3dfeee3")
 		(effects
@@ -11480,8 +11480,8 @@
 			)
 		)
 	)
-	(gr_text "GND"
-		(at 109.02381 60.9215 0)
+	(gr_text "PWMA"
+		(at 108.85 61.175 0)
 		(layer "F.SilkS")
 		(uuid "60573904-4697-40c8-b91f-099a2442aff7")
 		(effects
@@ -11516,8 +11516,8 @@
 			(justify right bottom)
 		)
 	)
-	(gr_text "+3v3"
-		(at 108.680952 63.4615 0)
+	(gr_text "AIN2"
+		(at 108.825 63.6 0)
 		(layer "F.SilkS")
 		(uuid "70477092-ac13-47ab-aec5-cbbb24c53a67")
 		(effects
@@ -11552,8 +11552,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "BO2"
-		(at 109.042857 71.1 0)
+	(gr_text "BIN1"
+		(at 109.075 71.275 0)
 		(layer "F.SilkS")
 		(uuid "88efa451-16de-4791-9920-fd38f606c680")
 		(effects
@@ -11611,8 +11611,8 @@
 			)
 		)
 	)
-	(gr_text "VMOT"
-		(at 108.719048 76.3 0)
+	(gr_text "PWMB"
+		(at 108.975 76.35 0)
 		(layer "F.SilkS")
 		(uuid "9af323c3-398a-4588-bd2a-5352f23f6472")
 		(effects
@@ -11758,7 +11758,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 109.02381 78.7 0)
+		(at 108.925 78.9 0)
 		(layer "F.SilkS")
 		(uuid "d5ced81a-7e3e-4d47-8957-1aab7ee63d54")
 		(effects
