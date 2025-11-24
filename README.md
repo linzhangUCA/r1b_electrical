@@ -6,7 +6,10 @@
 
 ## Assembled Example
 
-![assembled](motor_control-soldered.jpg)
+![assembled](images/motor_control-soldered.jpg)
 
+## Errata
+
+![md_labels](images/motor_driver_errata.png)
 
 ## Parts List
