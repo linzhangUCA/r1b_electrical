@@ -9008,7 +9008,7 @@
 		(uuid "1d2c1471-793a-4161-8f1a-c3b92fe4f9a8")
 	)
 	(label "AO1"
-		(at 34.29 116.84 180)
+		(at 34.29 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9268,7 +9268,7 @@
 		(uuid "6c60d36e-18e6-473e-b653-c8cefb634621")
 	)
 	(label "C2A"
-		(at 193.04 80.01 0)
+		(at 193.04 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9448,7 +9448,7 @@
 		(uuid "9f75cfca-6ba1-4179-b8b5-04f8d404eb6e")
 	)
 	(label "C1A"
-		(at 193.04 77.47 0)
+		(at 193.04 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9778,7 +9778,7 @@
 		(uuid "f446ab87-4261-45ec-81de-b443e068939b")
 	)
 	(label "AO2"
-		(at 34.29 129.54 180)
+		(at 34.29 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
