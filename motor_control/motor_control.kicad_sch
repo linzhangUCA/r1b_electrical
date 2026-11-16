@@ -9337,7 +9337,7 @@
 		)
 		(uuid "76e3d659-f913-4994-99e7-e4d2f1527790")
 	)
-	(label "SRV_SIG2"
+	(label "SRV1"
 		(at 193.04 62.23 0)
 		(effects
 			(font
@@ -9457,7 +9457,7 @@
 		)
 		(uuid "9872fa87-ff40-4e7c-9867-fda756eba947")
 	)
-	(label "SRV_SIG1"
+	(label "SRV2"
 		(at 193.04 64.77 0)
 		(effects
 			(font
@@ -9537,7 +9537,7 @@
 		)
 		(uuid "a4f2f777-f5a7-4201-8a4e-c5a01d5e8f11")
 	)
-	(label "SRV_SIG2"
+	(label "SRV2"
 		(at 264.16 125.73 180)
 		(effects
 			(font
@@ -9637,7 +9637,7 @@
 		)
 		(uuid "bfba018d-8605-4302-a15c-192a947f8c7e")
 	)
-	(label "SRV_SIG1"
+	(label "SRV1"
 		(at 217.17 125.73 0)
 		(effects
 			(font
