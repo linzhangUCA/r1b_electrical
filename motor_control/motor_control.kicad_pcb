@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(general
-		(thickness 1.6)
+		(thickness 1.600198)
 		(legacy_teardrops no)
 	)
 	(paper "A3")
@@ -11,37 +11,21 @@
 		(date "15 nov 2012")
 	)
 	(layers
-		(0 "F.Cu" signal)
+		(0 "F.Cu" signal "Front")
 		(4 "In1.Cu" signal)
 		(6 "In2.Cu" signal)
-		(2 "B.Cu" signal)
-		(9 "F.Adhes" user "F.Adhesive")
-		(11 "B.Adhes" user "B.Adhesive")
+		(2 "B.Cu" signal "Back")
 		(13 "F.Paste" user)
 		(15 "B.Paste" user)
-		(5 "F.SilkS" user "F.Silkscreen")
-		(7 "B.SilkS" user "B.Silkscreen")
+		(5 "F.SilkS" user)
+		(7 "B.SilkS" user)
 		(1 "F.Mask" user)
 		(3 "B.Mask" user)
-		(17 "Dwgs.User" user "User.Drawings")
-		(19 "Cmts.User" user "User.Comments")
-		(21 "Eco1.User" user "User.Eco1")
-		(23 "Eco2.User" user "User.Eco2")
 		(25 "Edge.Cuts" user)
 		(27 "Margin" user)
-		(31 "F.CrtYd" user "F.Courtyard")
-		(29 "B.CrtYd" user "B.Courtyard")
+		(31 "F.CrtYd" user)
+		(29 "B.CrtYd" user)
 		(35 "F.Fab" user)
-		(33 "B.Fab" user)
-		(39 "User.1" user)
-		(41 "User.2" user)
-		(43 "User.3" user)
-		(45 "User.4" user)
-		(47 "User.5" user)
-		(49 "User.6" user)
-		(51 "User.7" user)
-		(53 "User.8" user)
-		(55 "User.9" user)
 	)
 	(setup
 		(stackup
@@ -60,8 +44,8 @@
 				(thickness 0.035)
 			)
 			(layer "dielectric 1"
-				(type "prepreg")
-				(thickness 0.1)
+				(type "core")
+				(thickness 0.480066)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -71,8 +55,8 @@
 				(thickness 0.035)
 			)
 			(layer "dielectric 2"
-				(type "core")
-				(thickness 1.24)
+				(type "prepreg")
+				(thickness 0.480066)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -82,8 +66,8 @@
 				(thickness 0.035)
 			)
 			(layer "dielectric 3"
-				(type "prepreg")
-				(thickness 0.1)
+				(type "core")
+				(thickness 0.480066)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -102,10 +86,11 @@
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
 			)
-			(copper_finish "HAL lead-free")
+			(copper_finish "None")
 			(dielectric_constraints no)
 		)
 		(pad_to_mask_clearance 0)
+		(solder_mask_min_width 0.12)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting
 			(front yes)
@@ -121,6 +106,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(aux_axis_origin 100 100)
 		(grid_origin 100 100)
 		(pcbplotparams
@@ -10258,52 +10244,6 @@
 		)
 	)
 	(gr_line
-		(start 165 47)
-		(end 165 46.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "1c827ef1-a4b7-41e6-9843-2391dad87159")
-	)
-	(gr_rect
-		(start 166 81.825)
-		(end 187 97.675)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(locked yes)
-		(layer "Dwgs.User")
-		(uuid "0361f1e7-3200-462a-a139-1890cc8ecc5d")
-	)
-	(gr_rect
-		(start 169.9 46.355925)
-		(end 187 59.455925)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(locked yes)
-		(layer "Dwgs.User")
-		(uuid "55c2b75d-5e45-4a08-ab83-0bcdd5f03b6a")
-	)
-	(gr_rect
-		(start 169.9 64.45)
-		(end 187 77.55)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(locked yes)
-		(layer "Dwgs.User")
-		(uuid "29df31ed-bd0f-485f-bd0e-edc97e11b54b")
-	)
-	(gr_line
 		(start 98 47)
 		(end 98 97)
 		(stroke
@@ -11034,62 +10974,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom mirror)
-		)
-	)
-	(gr_text "Extend PCB edge 0.5mm if using SMT header"
-		(at 103 42.5 0)
-		(layer "Dwgs.User")
-		(uuid "5655325a-c0de-4b05-aadb-72ac1902d527")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "PoE"
-		(at 185.05 54.29 0)
-		(layer "Dwgs.User")
-		(uuid "6528a76f-b7a7-4621-952f-d7da1058963a")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(gr_text "RJ45"
-		(at 176.2 89.84 0)
-		(layer "Dwgs.User")
-		(uuid "00000000-0000-0000-0000-0000580cbbeb")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.15)
-			)
-		)
-	)
-	(gr_text "USB"
-		(at 177.724 71.552 0)
-		(layer "Dwgs.User")
-		(uuid "00000000-0000-0000-0000-0000580cbbe9")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.15)
-			)
-		)
-	)
-	(gr_text "USB"
-		(at 178.232 52.248 0)
-		(layer "Dwgs.User")
-		(uuid "3b108586-2520-4867-9c38-7334a1000bb5")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.15)
-			)
 		)
 	)
 	(zone
