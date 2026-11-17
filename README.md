@@ -2,7 +2,7 @@
 
 ## Schematic
 
-![schematic](./motor_control/assets/images/control_relay.svg/)
+![schematic](./motor_control/assets/images/motor_control.svg)
 
 ## Assembled Example
 
